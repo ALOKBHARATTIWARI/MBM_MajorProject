@@ -1,7 +1,7 @@
 # MBM_MajorProject
-# Welcome to Online FIR Portal
+# Welcome to Crime Portal
 
-A website where user can log an FIR online. This website has 4 modules: Head-quarter, Police In-charge, Police, User. It is multifunctional website with back end support.
+A website where user can log an FIR online. This website has 4 modules: Head-quarter, Admin(Station In-charge),Officer (Police), User. It is multifunctional website with back end support.
 
 # Project Objective
 1. To provide an online platform where user can log a FIR at ease.
@@ -32,21 +32,20 @@ HQ can add or delete the police station.
 
 HQ will provide login credential to Police In-charge.
 
-**In-charge Module**
+**Admin Module**
 
-In-charge can see the case allocated to his location.
+Admin can see the case allocated to his location.
 
 He/She can add police officers for his/her location.
 
-In-charge will assign the case to each police.
+Admin will assign the case to each police.
 
-In-charge will provide login credential to Police.
+Admin will provide login credential to Police.
 
-**Police Module**
+**Officer Module**
 
-Police can only see the details of that case which has been assigned by the In-charge.
-
-Police can update the status of each case.
+Officer can only see the details of that case which has been assigned by the Admin.
+Officer can update the status of each case.
 
 Police can close the case and file the charge-sheet.
 
