@@ -1,0 +1,80 @@
+<html>
+    <head>
+.meme{width:100px;}
+        <title>page3</title>
+        <link rel="stylesheet" href="PAGE3.css">
+    </head>
+    <body>
+<div class="topnav">
+  <a href="home.php">HOME</a>
+  <a class="active" href="PAGE3.html">NEW CASE</a>
+  <a href="page4.html">FIND MY CULPRIT</a>
+  <a href="complainer_complain_history.php">VIEW CASE HISTORY</a>
+  <a href="page6.html">ABOUT US</a>
+  <a href="p_logout.php">LOG OUT</a>
+</div>
+<form id="accesspanel" action="PAGE3.php" method="post">
+  <h1 id="litheader">CENTRAL BUREAU OF INVESTIGATION</h1>
+  <div class="inset">
+<p>
+      <input type="text" name="Case_Num" id="Case_Num" placeholder="Case Number">
+   
+      <input type="date" name="Case_Date" id="Case_Date" placeholder="Case Date">
+    </p>
+    <p>
+      <input type="text" name="First_Name" id="First_Name" placeholder="First Name">
+    <input type="text" name="Middle_Name" id="Middle_Name" placeholder="Middle Name">
+      <input type="text" name="Last_name" id="Last_Name" placeholder="Last Name">
+    </p>
+
+<div class="meme">
+ <p>
+      <input type="text" name="Address" id="Address" placeholder="Address">
+</p>
+</div>
+
+
+<p>
+    <input type="text" name="PIN_Code" id="PIN_Code" placeholder="PIN Code">
+      <input type="text" name="State" id="State" placeholder="State">
+    </p>
+<p>
+      <input type="text" name="Discription" id="Discription" placeholder="Incident Discription">
+</p>
+
+<p>
+    <input type="text" name="Suspect_Age" id="Suspect_Age" placeholder="Suspect Age">
+      <input list="Suspect_Gender" name="Suspect_Gender"  placeholder="Suspect Gender">
+<datalist id="Suspect_Gender">
+  <option value="Male">
+  <option value="Female">
+  <option value="Others">
+</datalist>
+    <input type="text" name="Suspect_Height" id="Suspect_Height" placeholder="Suspect Height">
+    </p>
+<p>
+    <input type="text" name="Weapon" id="Weapon" placeholder="Weapon Used">
+      <input list="Crime_Type" name="Crime_Type"  placeholder="Crime Type">
+<datalist id="Crime_Type">
+  <option value="Murder">
+  <option value="Theft">
+  <option value="Domestic Violence">
+ <option value="Assault">
+ <option value="Cyber Crime">
+ <option value="Kidnapping">
+ <option value="Embezzlement">
+ <option value="Terrorism">
+</datalist>    
+
+
+</p>
+    
+    <input class="loginLoginValue" type="hidden" name="service" value="login" />
+  </div>
+  <p class="p-container">
+    <input type="submit" name="ADD" id="ADD" value="New Case">
+  </p>
+</form>
+         
+    </body>
+</html>
